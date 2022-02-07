@@ -141,17 +141,20 @@ body {
 /*tableau formations*/
 
 .card {
-    background-color: dodgerblue;
-    color: white;
+    background-color: #afafaf;
+    color: #111;
     padding: 1rem;
-    height: 4rem;
+    height: 10rem;
+    overflow-y: hidden;
+    border-radius: 10px;
+    text-decoration: none;
 }
 
 .cards {
-    max-width: 1200px;
+    max-width: 1500px;
     margin: 0 auto;
     display: grid;
-    grid-gap: 1rem;
+    grid-gap: 2rem;
 }
 
 
@@ -176,5 +179,14 @@ body {
 /*barre de navigation*/
 
 .navbar {
-    background-color: #CCCCCC;
+    background-color: #111;
+    padding: 10px 25px;
+    color: #818181;
+}
+
+
+/* contenu page */
+
+.content {
+    margin: 3rem 1rem;
 }
